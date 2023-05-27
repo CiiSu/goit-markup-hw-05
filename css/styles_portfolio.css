@@ -133,7 +133,7 @@ ul {
 .active-site::after {
     content: "";
     display: block;
-    width: 53px;
+    width: 58px;
     height: 4px;
     background-color: blue;
     visibility: hidden;
