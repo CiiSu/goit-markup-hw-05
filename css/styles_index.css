@@ -250,6 +250,31 @@ ul {
     padding-bottom: 94px;
 }
 
+.frame-what-we-do-description {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.what-we-do-description {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-block: 251px 27px;
+    color: var(--main-white);
+}
+
+.testtest {
+    background-image: url(/goit-markup-hw-05/zdjęcia/Zajęcia/pisanie_na_klawiaturze.jpg);
+    width: 370px;
+    height: 294px;
+    box-shadow: 0px -70px 0px 0px rgba(47, 48, 58, 0.8) inset;
+}
+
 /* MainSection - Our Team - Photo - Description - Links */ 
 
 .our-team-background {
