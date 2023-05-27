@@ -123,6 +123,23 @@ ul {
     color: var(--main-blue);
 }
 
+.active-site {
+    background: #2196F3;
+    border-radius: 2px;
+    position: relative;
+    top: 30px;
+}
+
+.active-site::after {
+    content: "";
+    display: block;
+    width: 53px;
+    height: 4px;
+    background-color: blue;
+    visibility: hidden;
+
+}
+
 /* Main - Buttons - Portfolio */
 
 .flex-button-portfolio {
