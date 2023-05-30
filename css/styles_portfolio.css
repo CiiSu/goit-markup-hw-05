@@ -12,6 +12,7 @@
     --second-black: #000000;
     --border-color: #ECECEC;
     --background-color-icon: #F5F4FA;
+    --cubic-bezier: (0.4, 0, 0.2, 1);
 
 }
 
@@ -192,7 +193,60 @@ ul {
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    cursor: pointer;
 }
+
+.overlay {
+    height: unset;
+}
+
+.overlay>div {
+    width: min(400px 50%);
+}
+
+.overlay figure {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.overlay figure>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: scale 3s;
+}
+
+.overlay figure>figcaption {
+    position: absolute;
+    inset: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    color: #fff;
+    translate: 0 100% 0;
+    transition: transform 250ms var(--cubic-bezier);
+}
+
+.overlay div:hover figcaption {
+    translate: 0;
+}
+
+
+.content-photo-portfolio {
+    width: 301px;
+    height: 196px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin: 49px 45px 49px 24px;
+}
+
 
 .photo-portfolio {
     font-weight: 700;
@@ -202,6 +256,7 @@ ul {
     color: var(--main-black);
     margin-left: 24px;
     padding-block: 20px 4px;
+
 }
 
 .under-photo-portfolio {
