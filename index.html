@@ -32,7 +32,10 @@
             </section>
             <nav>
               <ul class="index-menu">
-                <li><a class="link" href="./index.html">Agencja</a><div class="active-site"></div></li>
+                <li>
+                  <a class="link" href="./index.html">Agencja</a>
+                  <div class="active-site"></div>
+                </li>
                 <li><a class="link" href="./portfolio.html">Portfolio</a></li>
                 <li><a class="link" href="#">Kontakty</a></li>
               </ul>
@@ -41,11 +44,14 @@
           <section>
             <ul class="kontakt-index" style="display: flex">
               <li class="menu-kontact-list">
-            <a class="menu-kontakt-link link" href="mailto:info@devstudio.com"><svg class="menu-icon" width="16" height="12">
-                      <use href="zdjęcia/icon.svg#icon-envelope-1"></use>
-                    </svg>
-                      info@devstudio.com</a
-                    >
+                <a
+                  class="menu-kontakt-link link"
+                  href="mailto:info@devstudio.com"
+                  ><svg class="menu-icon" width="16" height="12">
+                    <use href="zdjęcia/icon.svg#icon-envelope-1"></use>
+                  </svg>
+                  info@devstudio.com</a
+                >
               </li>
               <li class="icon-header">
                 <a class="menu-kontakt-link" href="tel:+48111111111">
@@ -67,7 +73,18 @@
             <h1 class="solutions-letter">
               EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
             </h1>
-            <button type="button" class="button-service">Zamów usługe</button>
+            <button class="button-service" type="button" data-modal-open>
+              Zamów usługe
+            </button>
+            <div class="backdrop is-hidden" data-modal>
+              <div class="modal">
+                <button class="modal-close" data-modal-close>
+                  <svg class="icon-close-modal" width="30" height="30">
+                    <use href="zdjęcia/icon.svg#icon-close"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -130,19 +147,18 @@
           <ul class="photo-what-we-do-index">
             <li>
               <div class="what-we-do-1 frame-what-we-do-description">
-              <h3 class="what-we-do-description">APLIKACJE KOMPUTEROWE</h3>
+                <h3 class="what-we-do-description">APLIKACJE KOMPUTEROWE</h3>
               </div>
             </li>
             <li>
               <div class="what-we-do-2 frame-what-we-do-description">
-              <h3 class="what-we-do-description">APLIKACJE MOBILNE</h3>
+                <h3 class="what-we-do-description">APLIKACJE MOBILNE</h3>
               </div>
             </li>
             <li>
               <div class="what-we-do-3 frame-what-we-do-description">
-              <h3 class="what-we-do-description">ROZWIĄZANIA GRAFICZNE</h3>
+                <h3 class="what-we-do-description">ROZWIĄZANIA GRAFICZNE</h3>
               </div>
-
             </li>
           </ul>
         </div>
@@ -262,7 +278,7 @@
                       <use href="zdjęcia/icon.svg#icon-inst-2"></use>
                     </svg>
                   </li>
-                    <li>
+                  <li>
                     <svg class="icon-social-team" width="44" height="44">
                       <use href="zdjęcia/icon.svg#icon-twit"></use>
                     </svg>
@@ -272,7 +288,7 @@
                       <use href="zdjęcia/icon.svg#icon-fb"></use>
                     </svg>
                   </li>
-                    <li>
+                  <li>
                     <svg class="icon-social-team" width="44" height="44">
                       <use href="zdjęcia/icon.svg#icon-inlink"></use>
                     </svg>
@@ -287,47 +303,53 @@
         <div class="container">
           <h2 class="h2-our-customers">Nasi Klienci</h2>
           <ul class="our-customers-list">
-            <li><a class="social-icon-links" href="#">
-              <div class="our-customers-frame">
-                <svg class="icon-customers" width="106" height="46">
-                  <use href="zdjęcia/icon.svg#icon-Union"></use>
-                </svg>
-                </div></a>
+            <li>
+              <a class="social-icon-links" href="#">
+                <div class="our-customers-frame">
+                  <svg class="icon-customers" width="106" height="46">
+                    <use href="zdjęcia/icon.svg#icon-Union"></use>
+                  </svg></div
+              ></a>
             </li>
-            <li><a class="social-icon-links" href="#">
-              <div class="our-customers-frame">
-                <svg class="icon-customers" width="106" height="52">
-                  <use href="zdjęcia/icon.svg#icon-company-ne"></use>
-                </svg>
-              </div></a>
+            <li>
+              <a class="social-icon-links" href="#">
+                <div class="our-customers-frame">
+                  <svg class="icon-customers" width="106" height="52">
+                    <use href="zdjęcia/icon.svg#icon-company-ne"></use>
+                  </svg></div
+              ></a>
             </li>
-            <li><a class="social-icon-links" href="#">
-              <div class="our-customers-frame">
-                <svg class="icon-customers" width="106" height="60">
-                  <use href="zdjęcia/icon.svg#icon-company"></use>
-                </svg>
-              </div></a>
+            <li>
+              <a class="social-icon-links" href="#">
+                <div class="our-customers-frame">
+                  <svg class="icon-customers" width="106" height="60">
+                    <use href="zdjęcia/icon.svg#icon-company"></use>
+                  </svg></div
+              ></a>
             </li>
-            <li><a class="social-icon-links" href="#">
-              <div class="our-customers-frame">
-                <svg class="icon-customers" width="106" height="60">
-                  <use href="zdjęcia/icon.svg#icon-foster"></use>
-                </svg>
-              </div></a>
+            <li>
+              <a class="social-icon-links" href="#">
+                <div class="our-customers-frame">
+                  <svg class="icon-customers" width="106" height="60">
+                    <use href="zdjęcia/icon.svg#icon-foster"></use>
+                  </svg></div
+              ></a>
             </li>
-            <li><a class="social-icon-links" href="#">
-              <div class="our-customers-frame">
-                <svg class="icon-customers" width="106" height="60">
-                  <use href="zdjęcia/icon.svg#icon-brand"></use>
-                </svg>
-              </div></a>
+            <li>
+              <a class="social-icon-links" href="#">
+                <div class="our-customers-frame">
+                  <svg class="icon-customers" width="106" height="60">
+                    <use href="zdjęcia/icon.svg#icon-brand"></use>
+                  </svg></div
+              ></a>
             </li>
-            <li><a class="social-icon-links" href="#">
-              <div class="our-customers-frame">
-                <svg class="icon-customers" width="106" height="60">
-                  <use href="zdjęcia/icon.svg#icon-tagline"></use>
-                </svg>
-              </div></a>
+            <li>
+              <a class="social-icon-links" href="#">
+                <div class="our-customers-frame">
+                  <svg class="icon-customers" width="106" height="60">
+                    <use href="zdjęcia/icon.svg#icon-tagline"></use>
+                  </svg></div
+              ></a>
             </li>
           </ul>
         </div>
@@ -409,6 +431,6 @@
         </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <script src="./modal/modal.js"></script>
   </body>
 </html>
