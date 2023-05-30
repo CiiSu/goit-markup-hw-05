@@ -215,7 +215,9 @@ ul {
     cursor: pointer;
     border-radius: 50%;
     background: #FFFFFF;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 2em;
+    height: 2em;
 }
 
 .backdrop {
